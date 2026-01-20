@@ -7,11 +7,11 @@ document.querySelector('#app').innerHTML = `
         <h1>Uma cartinha fofa</h1>
       </header>
         <section class="cartinha-body">
-          <p class="message">Vim por meio desta cartinha pedir um favor: poderia, por obséquio,<br/>me passar uma cópia do banco de dados para que eu realize alguns<br/>testes de performance? ✨</p>
+          <p class="message">Vim por meio desta cartinha pedir um favor: poderia, por obséquio,<br/>me passar uma cópia do banco de dados, a mesma que eu havia falado que queria toda seguinda,<br/> não e sua culpa pois eu havia esquecida de pedir a mesma✨</p>
           <p class="details">Pequenos gestos fazem grandes dias — sorria e aproveite!</p>
         </section>
       <footer class="cartinha-footer">
-        <p class="from">Com carinho, <strong>Vitor</strong></p>
+        <p class="from">Com carinho, <strong>🐱Vitor🐱</strong></p>
         <button id="toggle" class="btn">Abrir / Fechar</button>
       </footer>
     </article>
