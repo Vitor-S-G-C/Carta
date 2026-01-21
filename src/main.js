@@ -1,4 +1,5 @@
 import './style.css'
+import mamaco from '../public/mamaco.png'
 
 document.querySelector('#app').innerHTML = `
   <main class="cartinha-wrap">
@@ -7,8 +8,7 @@ document.querySelector('#app').innerHTML = `
         <h1>Uma cartinha fofa</h1>
       </header>
         <section class="cartinha-body">
-          <p class="message">Vim por meio desta cartinha pedir um favor: poderia, por obséquio,<br/>me passar uma cópia do banco de dados, a mesma que eu havia falado que queria toda segunda,<br/> ✨não e sua culpa pois eu havia esquecida de pedir a mesma✨</p>
-          <p class="details">Pequenos gestos fazem grandes dias — sorria e aproveite!</p>
+        <img src="${mamaco}" alt="Mamaco sorrindo" class="cartinha-image" />
         </section>
       <footer class="cartinha-footer">
         <p class="from">Com carinho, <strong>🐱Vitor🐱</strong></p>
@@ -18,18 +18,20 @@ document.querySelector('#app').innerHTML = `
   </main>
 `
 
-const cart = document.querySelector('.cartinha')
+const cartinha = document.querySelector('.cartinha')
 const btn = document.getElementById('toggle')
-const message = document.querySelector('.message')
+const message = document.querySelector('.cartinha-body')
 
-// initial closed state
+// estado inicial
 btn.textContent = 'Abrir'
 btn.setAttribute('aria-expanded', 'false')
 message.setAttribute('aria-hidden', 'true')
+message.hidden = true
 
 btn.addEventListener('click', () => {
-  const opened = cart.classList.toggle('open')
+  const opened = cartinha.classList.toggle('open')
   btn.textContent = opened ? 'Fechar' : 'Abrir'
   btn.setAttribute('aria-expanded', String(opened))
   message.setAttribute('aria-hidden', String(!opened))
+  message.hidden = !opened
 })
