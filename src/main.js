@@ -1,5 +1,5 @@
 import './style.css'
-import mamaco from '../public/mamaco.png'
+import mamaco from '../public/mamaco1.png.jfif'
 
 document.querySelector('#app').innerHTML = `
   <main class="cartinha-wrap">
