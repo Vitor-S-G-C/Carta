@@ -1,5 +1,4 @@
 import './style.css'
-import mamaco from '../public/mamaco.png'
 
 document.querySelector('#app').innerHTML = `
   <main class="cartinha-wrap">
@@ -9,7 +8,6 @@ document.querySelector('#app').innerHTML = `
       </header>
         <section class="cartinha-body">
         Bom dia
-        //<img src="${mamaco}" alt="Mamaco sorrindo" class="cartinha-image" />
         </section>
       <footer class="cartinha-footer">
         <p class="from">Com carinho, <strong>🐱Vitor🐱</strong></p>
