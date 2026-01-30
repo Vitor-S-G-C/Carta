@@ -8,7 +8,8 @@ document.querySelector('#app').innerHTML = `
         <h1>Uma cartinha fofa</h1>
       </header>
         <section class="cartinha-body">
-        <img src="${mamaco}" alt="Mamaco sorrindo" class="cartinha-image" />
+        Bom dia
+        //<img src="${mamaco}" alt="Mamaco sorrindo" class="cartinha-image" />
         </section>
       <footer class="cartinha-footer">
         <p class="from">Com carinho, <strong>🐱Vitor🐱</strong></p>
