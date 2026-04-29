@@ -4,17 +4,14 @@ document.querySelector('#app').innerHTML = `
   <main class="cartinha-wrap">
     <article class="cartinha" aria-live="polite">
       <header class="cartinha-header">
-        <h1>Uma cartinha fofa</h1>
+        <p class="chancela">Capitania de Sao Vicente</p>
+        <h1>Carta de Solicitacao</h1>
       </header>
-        <section class="cartinha-body">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue pretium ex nec pulvinar. Aliquam tellus risus, sodales vitae libero non, faucibus egestas risus. Sed molestie aliquam maximus. Sed tristique, nulla ac fringilla sodales, elit magna iaculis nisi, vel tempus nisi quam vitae tortor. Duis ut elit tempus, convallis lorem vel, dictum mi. Proin cursus aliquam sem, et elementum magna malesuada quis. Cras eget lobortis mi. Duis magna dolor, condimentum sed elementum iaculis, lobortis eu eros.
-
-Cras vitae orci rhoncus, dignissim ipsum non, porta turpis. In at nisi aliquam, iaculis ante quis, euismod lectus. Nullam id rutrum ipsum. Donec consectetur, mauris nec consequat consequat, dolor turpis bibendum mi, id luctus nulla ipsum quis urna. Aliquam viverra nunc ac justo convallis, et interdum arcu pellentesque. Curabitur eleifend a eros eu malesuada. Integer mi erat, viverra eget nisl sit amet, porta efficitur turpis. Proin aliquet quam ut posuere ullamcorper.
-
-
-        </section>
+      <section class="cartinha-body">
+        Prezados Senhores, venho, por meio desta, solicitar o fornecimento de dois pães com ovo, bem como de um canudo. Outrossim, solicito que os referidos itens sejam acondicionados e transportados com o máximo zelo, observando-se rigorosamente as condições adequadas de higiene e integridade. Ademais, caso haja disponibilidade, rogo pela inclusão de uma unidade de Coca-Cola Zero.
+      </section>
       <footer class="cartinha-footer">
-        <p class="from">Com carinho, <strong>🐱Vitor🐱</strong></p>
+        <p class="from">Subscrevo-me, com estima.</p>
         <button id="toggle" class="btn">Abrir / Fechar</button>
       </footer>
     </article>
